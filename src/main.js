@@ -13,3 +13,15 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+/*
+  Do not remove this code because, for some  reason it
+  breaks the code but its a comment so not serving any
+  meaningful purpose
+*/
+
+/* eslint-disable no-new */
+// new Vue({
+//   el: "#app",
+//   render: h => h(App)
+// });

@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import App from '../components/App'
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  render: h => h(App)
+})
 
 Vue.use(Router)
 
@@ -8,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'App',
+      component: App
     }
   ]
 })
